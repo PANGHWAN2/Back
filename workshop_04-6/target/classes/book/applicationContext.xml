@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="SQLPlus" class="book.Book">
+		<constructor-arg index="0" value="SQL Plus" />
+		<constructor-arg index="1" value="50000" />
+		<constructor-arg index="2" value="5.0" />
+
+	</bean>
+	<bean id="Java2" class="book.Book">
+
+		<constructor-arg index="0" value="Java 2.0" />
+		<constructor-arg index="1" value="40000" />
+		<constructor-arg index="2" value="3.0" />
+	</bean>
+
+	<bean id="JSPServlet" class="book.Book">
+		<constructor-arg index="0" value="JSP Servlet" />
+		<constructor-arg index="1" value="60000" />
+		<constructor-arg index="2" value="6.0" />
+	</bean>
+
+</beans>
